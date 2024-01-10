@@ -1,5 +1,8 @@
 local Util = require("lazyvim.util")
 return {
+  { "andweeb/presence.nvim" },
+  { "prisma/vim-prisma" },
+  { "alvan/vim-closetag" },
   {
     "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",

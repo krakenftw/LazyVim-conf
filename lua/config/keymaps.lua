@@ -7,6 +7,7 @@ local builtin = require("telescope.builtin")
 
 keymap.set("n", "+", "<C-a")
 keymap.set("n", "-", "C-x")
+keymap.set("i", "<M-BS>", "<C-w>", { noremap = true })
 
 -- delte a word backwartd
 keymap.set("n", "dw", "vb_d")
